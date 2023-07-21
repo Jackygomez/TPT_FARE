@@ -2,17 +2,7 @@
 
 _La API recibe un Json con el texto a ser analizado y retorna la respuesta del modelo GPT, de OPENAI_
 
-## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-    git clone https://fecork@bitbucket.org/onetp/spf_iamodel_tptravel.git
-
-
-esto descargará el código del repositorio
-	
-	https://bitbucket.org/onetp/spf_iamodel_tptravel/src/master/
-Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
@@ -36,31 +26,6 @@ En Azure las librerías se instalan automaticamente
 ```
 func host start
 ```
-
-## API 🦉
-
-consultar al modelo en las rutas
-
-### Develop
-	https://tptravel-gptmodel.azurewebsites.net/api/GptModelPoliciesTpt?
-
-
-### QA
-
-	https://aznprd-eus-trqa-func02.azurewebsites.net/api/GptModelPoliciesTpt?
-
-
-### Production
-
-### Expedia
-	
-	https://azprd-eus-tvex-func01.azurewebsites.net/api/GptModelPoliciesTpt?
-
-	
-
-### Aeroméxico
-
-	https://azprd-eus-trpr-func01.azurewebsites.net/api/GptModelPoliciesTpt
 
 
 Recibe el objeto Json
@@ -223,86 +188,11 @@ por ejemplo.
 
 El código se encuentra desplegado en las siguientes Azure Function.
 
-### Desarrollo
-
-```
-tptravel-model
-```
-
-del grupo de recursos
-
-```
-TPTravelDEV12901
-```
-
-de la suscripción
-
-```
-Teleperformance Colombia
-```
-
-### QA
-
-```
-aznprd-eus-trqa-func02
-```
-
-del grupo de recursos
-
-```
-aznprd-eus-trqa-rg
-```
-
-de la suscripción
-
-```
-TP Global Non-Production
-```
-
-### Producción
-
-Expedia
----
-```
-azprd-eus-tvex-func01
-```
-
-del grupo de recursos
-
-```
-azprd-eus-tvex-rg01
-```
-
-de la suscripción
-
-```
-TP Global Production
-```
-
-Aeroméxico
----
-
-	azprd-eus-trpr-func01
-
-del grupo de recursos
-
-```
-azprd-eus-trpr-rg
-```
-
-de la suscripción
-
-```
-TP Global Production
-```
 
 Los guías usadas para desplegar son:
 
-[Visual Studio Code](https://fecork.notion.site/Desplegar-c-digo-en-Azure-Function-con-Visual-Studio-Code-df55f8a586af43709ef499ab4dc298c4)
+[Visual Studio Code](https://www.notion.so/Desplegar-c-digo-en-Azure-Function-con-Visual-Studio-Code-8fc2732606f4407ab5d57bcd4b68d285?pvs=4)
 
-[Pipeline](https://fecork.notion.site/Pipeline-para-Azure-Function-4a46b6b2529a4311841d6a51516ecf2a)
-
-[Release](https://fecork.notion.site/Release-para-Azure-Function-3203b3a312aa40a79c2074533fc252d5)
 
 ## Construido con 🛠️
 
@@ -312,17 +202,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 - [OpenAI API](https://openai.com/blog/openai-api/) - Modelo GPT3
 - [Spacy](https://spacy.io) - Librería para procesar texto
 
-## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
