@@ -1,0 +1,224 @@
+question_paragraph_general: |
+          According to the above rules, answer the next questions:
+            
+question_category_2: 
+   availability: |
+          According to DAY/TIMES, What days or times are permitted?.
+          -
+question_category_3: 
+   availability: |
+  
+          According to SEASONALITY, what are the seasons with restrictions?.
+          -
+
+question_category_5: 
+   availability: |
+         
+          According to the AP.ADVANCE RES/TKT. Is it possible to make an advanced purchase? Choose one:
+          - Yes
+          - No
+          - None
+           
+question_category_6: 
+   availability: |
+  
+          According to MINIMUM STAY, What are the minimum stay requirements?
+          - 
+question_category_7: 
+   availability: |
+  
+          According to MAXIMUM STAY, What are the maximum stay requirements?
+          - 
+question_category_8: 
+   availability: |
+          NOTE: answer the int values just  with cardinal numbers, for instance 10 STOPOVERS
+
+          According to STOPOVERS, how many stopovers are allowed? 5 STOPOVERS, 10 STOPOVERS, 1 STOPOVERS?
+
+question_category_9: 
+   availability: |
+
+          According to TF.TRANSFERS/RTGS. Are there restrictions? Choose one:
+          - Yes
+          - No
+          - None
+           
+question_category_11: 
+   availability: |
+          NOTE: answer the dates with the format for example 12OCT, 23APR, and so.
+
+          According to BLACKOUT DATES, what are dates with blackout restrictions? list which ones
+          - 
+    
+question_category_12:
+  departuredate: |
+          What is the departure date of the flight?
+          -
+
+          According to the departure date of the flight, is there any surcharge added to the applicable fare? Choose one.
+          -Yes.
+          -No.
+          -None.
+
+  ticketingcharge: |
+          according to the above rules,answer the next questions:
+          1. According to the ticketing date of the flight, is there any surcharge added to the applicable fare? Choose one
+          - Yes
+          - No
+          - None
+
+          2. What is the ticketing date of the flight?
+          -
+
+  additionalcharge: |
+          according to the above rules,answer the next questions:
+          1. According to SURCHARGES, what additional surcharge does apply from that origin?
+          -
+
+          2. What is the flight number?
+          -
+
+          3. What time is the flight?
+          -
+
+          4. What day of the week is the flight? Choose one
+          - Monday
+          - Tuesday
+          - Wednesday
+          - Thursday
+          - Friday
+          - Saturday
+          - Sunday
+
+          5. According to SURCHARGES, what peak surcharge does apply with that flight?
+          -
+
+  fuelsurcharge: |
+          What is the origin of the flight?
+          -
+
+          According to FUEL SURCHARGE, what fuel surcharge does apply from that origin?
+          -
+
+question_category_14: 
+   availability: |
+
+          According to TR.TVL RESTRICTION. What are the travel restriction days?
+          -
+           
+question_category_16:
+  cancellation: |
+          about CANCELLATIONS:
+          According to the rules at which time you can cancel?. Choose one.
+          -ANY TIME.
+          -BEFORE DEPARTURE.
+          -None
+
+          How much is the CHARGE FOR CANCEL? Complete, in there is not charge respond null.
+          -CHARGE: ___.
+          -null
+          
+          How much is THE FEE FOR NO-SHOW. complete:
+          - FEE: __ FOR NO SHOW
+          - None.
+
+  change: |
+          about CHANGES:
+          according to the rules at which time you can make changes?. Choose one:
+          - ANY TIME
+          - AFTER AND BEFORE DEPARTURE
+          - BEFORE DEPARTURE
+          - AFTER DEPARTURE
+          - None
+
+          How much is the CHARGE FOR CHANGE ONLY FOR REISSUE OR REVALIDATION? Choose one and complete:
+          - CHARGE: __ FOR REISSUE OR REVALIDATION
+          - None
+
+          How much is the CHARGE FOR NO SHOW? ONLY USE THE FEE OF NO-SHOW. Choose one and complete:
+          - FEE: __ FOR NO SHOW
+          - None.
+
+          Changes is permitted in case of no-show? Choose one:
+          - Yes, is permitted in case of no-show
+          - No, is not permitted in case of no-show
+          - None
+        
+          Answer the next question above the changes. ¿is the CHARGE made by FARE COMPONENTS?. Choose one:
+          - True
+          - False
+          - None
+
+  time: |
+          Give me information of the flight about place, date and time:
+          -
+
+  cancellationmx: |
+          Is the ticket refundable within 24 hours of the purchase? Choose one:
+          - Yes
+          - No
+          - None
+          
+          Are changes allowed without penalties?? Choose one:
+          - Yes
+          - No
+          - None
+          
+          At any time, is the ticket REFUNDABLE? Choose one: 
+          - Yes
+          - No
+          - None
+          
+          ARE CHANGES ALLOWED WITH LESS THAN 3 HOURS PRIOR TO DEPARTURE OF THE FLIGHT? Choose one:
+          - Yes
+          - No
+          - None
+          
+          What are the waivers that apply? Complete:
+          -
+          
+  changemx: |
+          Are changes allowed with less than 3 hours prior to the departure of the flight? Choose one:
+          - Yes
+          - No
+          - None 
+          
+          what are the fee for a UPGRADED?
+          -
+          
+question_category_18:
+  endorsements: |
+          1. Does the endorsement depend on a specific origin? Choose one:
+          - Yes
+          - No
+          - None
+          
+          2. What is the origin of the trip?
+          -
+          
+          3. Does the endorsement depend on a specific point of sale? Choose one:
+          - Yes
+          - No
+          - None
+          
+          4. Where is the ticket being sold?
+          -
+          
+          5. What ticket/s must be annotated in the endorsement box?
+          -
+          
+          6. What must be annotated in the endorsement box?
+          -
+
+question_category_19:
+  cancellation: |
+          about CHILDREN DISCOUNTS: 
+          What is the PERCENTAGE CHARGE OF THE FARE for a #{AGE}# year old passenger #{SEAT}# #{ACCOMPANIED}#?
+          - CHARGE: ____ PERCENT OF THE FARE
+          - None
+          
+  change: |
+          about CHILDREN DISCOUNTS: 
+          What is the PERCENTAGE CHARGE OF THE FARE for a #{AGE}# year old passenger #{SEAT}# #{ACCOMPANIED}#?
+          - CHARGE: ____ PERCENT OF THE FARE
+          - None

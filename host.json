@@ -1,0 +1,32 @@
+{
+    "version": "2.0",
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            }
+        }
+    },
+    "extensionBundle": {
+        "id": "Microsoft.Azure.Functions.ExtensionBundle",
+        "version": "[3.*, 4.0.0)"
+    },
+    "extensions": {
+        "durableTask": {
+            "maxConcurrentActivityFunctions": 4,
+            "maxConcurrentOrchestratorFunctions": 4,
+            "useGracefulShutdown": true,
+            "tracing": {
+                "traceInputsAndOutputs": true
+            }
+        },
+        "http": {
+            "routePrefix": "api",
+            "maxConcurrentRequests": 500
+        },
+        "blobs": {
+            "maxDegreeOfParallelism": 500
+        }
+    }
+}

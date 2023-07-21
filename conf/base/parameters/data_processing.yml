@@ -1,0 +1,17 @@
+dataset : "ticket"
+list_tasks : [
+                "CANCELLATION", 
+                "CANCELLATIONMX", 
+                "CHANGE", 
+                "CHANGEMX", 
+                "AVAILABILITY", 
+                "FUELSURCHARGE", 
+                "DEPARTUREDATE", 
+                "TICKETINGCHARGE", 
+                "ADDITIONALCHARGE",
+                "ENDORSEMENTS",
+                "TIME"
+                ]
+category_to_format_date : [3, 11, 16]
+category_to_days : [2]
+validated_categories : [2, 3, 5, 6, 7, 8, 9, 11, 12, 14, 16, 18, 19]

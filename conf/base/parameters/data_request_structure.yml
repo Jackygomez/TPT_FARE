@@ -1,0 +1,23 @@
+structure_fare_rules: |
+
+          choose the best option and answer with the JSON structure:
+          1. {
+            "number_question":1,
+            "answer":"your answer",
+            "quote":"5 WORDS OF THE TEXT EXCERPT",
+            "boolean": True or False,
+          }
+
+          2. {
+            "number_question":2,
+            "answer":"your answer",
+            "quote":"5 WORDS OF THE TEXT EXCERPT",
+            "boolean": True or False,
+          }
+
+          NOTE: from "quote" value, add a very short text of five words from which you extract the answer
+
+tag_structure: |
+            1. {
+              "number_question":1,
+              "answer":

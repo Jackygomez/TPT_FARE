@@ -1,0 +1,47 @@
+open_ai_parameters:
+  model: text-davinci-003
+  prompt: Choose the best option according to the text
+  temperature: 0.7
+  max_tokens: 1500
+  top_p: 1
+  frequency_penalty: 0
+  presence_penalty: 0
+
+open_ai_parameters_change:
+  model: text-davinci-003
+  prompt: Choose the best option according to the text
+  temperature: 0.7
+  max_tokens: 1500
+  top_p: 1
+  frequency_penalty: 0
+  presence_penalty: 0
+
+open_ai_parameters_change_manual:
+  model: text-davinci-003
+  prompt: Choose the best option according to the text
+  temperature: 0.7
+  max_tokens: 500
+  top_p: 1
+  frequency_penalty: 0
+  presence_penalty: 0
+
+open_ai_parameters_classification:
+  model: text-davinci-003
+  prompt: Classify the following text in refund or nonrefund
+  temperature: 0.7
+  max_tokens: 100
+  top_p: 1
+  frequency_penalty: 0
+  presence_penalty: 0
+
+open_ai_parameters_list:
+  model: text-davinci-003
+  prompt:  Choose the best option according to the text
+  temperature: 0.5
+  max_tokens: 500
+  top_p: 1
+  frequency_penalty: 0
+  presence_penalty: 0
+
+language_studio:
+  max_sentence_count: 5

@@ -1,0 +1,99 @@
+# just to the strings end put a point to count questions
+
+qlite_category_2:
+  availability: |
+          What days or times are permitted?.
+
+qlite_category_3:
+  availability: |
+          what are the seasons with restrictions?.
+
+qlite_category_5:
+  availability: |
+          Is it possible to make an advanced purchase?.
+
+qlite_category_6:
+  availability: |
+          What are the minimum stay requirements?.
+
+qlite_category_7:
+  availability: |
+          What are the maximum stay requirements?.
+
+qlite_category_8:
+  availability: |
+          How many stopovers are allowed?.
+
+qlite_category_9:
+  availability: |
+          Are there restrictions or routing between cities countries or airport?.
+
+qlite_category_11:
+  availability: |
+          what are dates with blackout restrictions?.
+
+qlite_category_12:
+  departuredate: |
+          What is the departure date of the flight?.
+          According to the departure date of the flight is there any surcharge added to the applicable fare?.
+  fuelsurcharge: |
+          What is the origin of the flight?.
+          What fuel surcharge does apply from that origin?.
+
+  ticketingcharge: |
+          According to the ticketing date of the flight, is there any surcharge added to the applicable fare?.
+          What is the ticketing date of the flight?.
+
+  additionalcharge: |
+          According to SURCHARGES, what additional surcharge does apply from that origin?.
+          What is the flight number?.
+          What time is the flight?.
+          What day of the week is the flight?.
+          According to SURCHARGES, what peak surcharge does apply with that flight?.
+
+qlite_category_14:
+  availability: |
+          What are the travel restriction days?.
+          
+qlite_category_16:
+  cancellation: |
+          According to the rules at which time you can cancel.
+          How much is the CHARGE FOR CANCEL?.
+          How much is THE FEE FOR NO-SHOW.
+  change: |
+          According to the rules at which time you can make changes?.
+          How much is the CHARGE FOR CHANGE ONLY FOR REISSUE OR REVALIDATION?.
+          How much is the CHARGE FOR NO SHOW? ONLY USE THE FEE OF NO-SHOW.
+          Changes is permitted in case of no-show?.
+          ¿is the CHARGE made by FARE COMPONENTS?.
+
+  time: |
+          Give me information of the flight about place, date and time.
+  
+          
+  cancellationmx: |
+          Is the ticket refundable within 24 hours of the purchase?.
+          Are changes allowed without penalties?.
+          At any time, is the ticket REFUNDABLE?.
+          ARE CHANGES ALLOWED WITH LESS THAN 3 HOURS PRIOR TO DEPARTURE OF THE FLIGHT?.
+          What are the waivers that apply?.
+  
+  changemx: |
+          Are changes allowed with less than 3 hours prior to the departure of the flight?.
+          what are the fee for a UPGRADED?.
+
+qlite_category_18:
+  endorsements: |
+          Does the endorsement depend on a specific origin?.
+          What is the origin of the trip?.
+          Does the endorsement depend on a specific point of sale?.
+          Where is the ticket being sold?.
+          What ticket/s must be annotated in the endorsement box?.
+          What must be annotated in the endorsement box?.
+          
+qlite_category_19:
+  cancellation: |
+          What is the PERCENTAGE for a #{AGE}# year old passenger #{SEAT}# #{ACCOMPANIED}#?.
+
+  change: |
+          What is the PERCENTAGE for a #{AGE}# year old passenger #{SEAT}# #{ACCOMPANIED}#?.
